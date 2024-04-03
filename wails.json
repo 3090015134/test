@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "dbtest",
+  "outputfilename": "dbtest",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "lingli",
+    "email": "1@qq.com"
+  },
+  "info": {
+    "companyName": "一起蒸米",
+    "productName": "伶俐整蛊",
+    "productVersion": "1.0.0",
+    "copyright": "一起蒸米",
+    "comments": "如有问题，请联系：1@qq.com"
+  },
+  "obfuscated": true,
+  "garbleargs": "-literals -tiny -seed=myrandomseed"
+}
